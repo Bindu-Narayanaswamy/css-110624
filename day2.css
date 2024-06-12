@@ -1,0 +1,88 @@
+
+
+.main {
+    border: 1px solid #ccc;
+    padding: 20px;
+    width: 400px;
+    background-color: #ffffff;
+    box-shadow: 3px 2px 5px rgba(202, 135, 135, 0.1);
+    border-radius: 10px;
+    margin: 30px auto;
+}
+
+.img {
+    position: relative;
+}
+
+.img img {
+    width: 100%;
+    height: auto;
+    display: block;
+    border-radius: 10px;
+}
+
+.pro, .off, .min {
+    position: absolute;
+    color: #fff;
+    padding: 5px;
+    border-radius: 3px;
+    font-size: 0.9em;
+}
+
+.pro {
+    top: 5px;
+    left: 5px;
+    background-color: #0b0b0b;
+}
+
+.off {
+    bottom: 5px;
+    left: 5px;
+    background-color: blueviolet;
+}
+
+.min {
+    bottom: 5px;
+    right: 5px;
+    background-color: #fff;
+    color: black;
+}
+
+.main h1 {
+    font-size: 1.5em;
+    font-weight: bold;
+    margin: 10px 0 5px;
+}
+
+.cuisine {
+    margin: 5px 0;
+}
+
+hr {
+  
+    border-top: 1px solid #ccc;
+}
+
+.footer {
+    display: flex;
+    align-items: center;
+}
+.one{
+    background-image: linear-gradient( rgb(199, 167, 40), rgb(203, 201, 173));
+}
+
+.safety {
+    font-size: 10px;
+    font-weight: semibold;
+    margin-right: 10px;
+    padding: 5px;
+    background-color: rgb(15, 125, 119);
+    border-radius: 5px;
+}
+
+.safety-info {
+    
+    color: #555;
+    flex: 1;
+}
+

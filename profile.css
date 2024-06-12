@@ -1,0 +1,35 @@
+.main{
+    width:700px ;
+    height: 500px;
+    border: 1px solid lightgray;
+    margin: 30px auto;
+    border-radius: 7px;
+    padding: 20px;
+    background-color: rgba(186, 184, 184,40%);
+    
+}
+
+.profile{
+    width: 600px;
+    margin: auto;
+    position: relative;
+}
+.cover{
+
+    width: 600px;
+    height: 200px;
+    object-fit: cover;
+}
+.user{
+    height: 120px;
+    width: 120px;
+    object-fit:cover;
+    border-radius: 50%;
+    position: absolute;
+    bottom: -60px;
+    left: 40%;
+    border: 4px solid white;
+}
+.text{
+    text-align: center;
+}
